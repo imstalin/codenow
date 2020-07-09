@@ -9,12 +9,11 @@ tags: [python, web,programming]
 ---
 
 ## What is Python ?
-
 Python is most powerful programming language and very easy to learn ,  It's used for 
 
-Web development 
-Machine Learning 
-Data Analysis 
+*Web development 
+*Machine Learning 
+*Data Analysis 
 ..etc 
 
 It's works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi
