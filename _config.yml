@@ -12,10 +12,7 @@ author: Stalin Jayapal
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Stalin Jayapal: "https://imstalin.com" 
-  Author's home: "https://imstalin.com"
+  About Me: "aboutme" 
 
 # --- Logo --- #
 
