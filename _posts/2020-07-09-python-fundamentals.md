@@ -22,6 +22,9 @@ It's works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi. The
 {: .box-note}
 **Name the python file** :  helloworld.py
 
+this where python file should be name with extension of .py
+
+Now Let's print the statement from python
 ```
 print("Hello World)
 ```
