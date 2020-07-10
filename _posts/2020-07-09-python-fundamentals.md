@@ -24,7 +24,17 @@ It's works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi. The
 
 this where python file should be name with extension of .py
 
-Now Let's print the statement from python
+Now Let's print the first statement in python
 ```
 print("Hello World)
+```
+
+### Syntax
+
+Python Indentation , When you write python code the indentation is very important , Indentation is refer the block of code.
+
+```
+i = 10
+if i > 20:
+    print("10 is greater than 20")
 ```
