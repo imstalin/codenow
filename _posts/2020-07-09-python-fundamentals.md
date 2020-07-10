@@ -29,12 +29,21 @@ Now Let's print the first statement in python
 print("Hello World)
 ```
 
-### Syntax
+### Syntax and Comments
 
 Python Indentation , When you write python code the indentation is very important , Indentation is refer the block of code.
 
+To comment the single # (hash) is used in the python program
+
 ```
 i = 10
+# If condition to check values are greater than 
 if i > 20:
     print("10 is greater than 20")
+
+"""
+This is example for multiple 
+comment
+in python
+"""
 ```
