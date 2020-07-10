@@ -20,4 +20,4 @@ It's works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi. The
 
 
 {: .box-note}
-**Sample python file ** :  sample.py
+**Sample python file** :  sample.py
