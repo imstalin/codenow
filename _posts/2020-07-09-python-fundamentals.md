@@ -18,6 +18,8 @@ Python is most powerful programming language and very easy to learn ,  It's used
 
 It's works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi. The syntax are very easy to learn and it is designed for readablity not like other programming language.
 
+{: .box-note}
+This tutorials complete covers the python version is greater than 3.x
 
 {: .box-note}
 **Name the python file** :  helloworld.py
@@ -33,10 +35,10 @@ print("Hello World)
 
 Python Indentation , When you write python code the indentation is very important , Indentation is refer the block of code.
 
-To comment the single # (hash) is used in the python program
+To comment the single # (hash) is used in the python program and commenting the multiple line, it should be wrap inside triple quotes
 
 ```
-i = 10
+i = input("Enter the value for i:") # assuming the i values are entered as 10
 # If condition to check values are greater than 
 if i > 20:
     print("10 is greater than 20")
@@ -76,3 +78,40 @@ type(color) => String
 type(salary) => float
 
 ```
+
+### Operators
+Operators are used to perform operations on variables and values.
+
+Python divides the operators in the following groups:
+
+* Arithmetic 
+    are used with numerical values to perform common mathematicals operations
+* Assignment 
+    are used to assign the values to variables and it can be combine with  **Arthmetic** operators 
+* Comparison 
+    are used to compare the two values are return the logical results
+* Logical 
+    are used to combine the conditionals statements 
+
+###  Array , Lists , Tuple and Dictonaries 
+
+### Condition and Loops
+
+### Functions
+
+### Class and Object , Inhertiance 
+
+### Modules
+
+### File Handling
+
+### Error Handling 
+
+### Python Util - Date , Math and JSON
+
+### How to install the python modules 
+PIP Installer 
+
+
+
+
