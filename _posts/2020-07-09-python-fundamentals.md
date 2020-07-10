@@ -47,3 +47,32 @@ comment
 in python
 """
 ```
+
+### Variables and Data Types
+Variables are created to store the values and python has no command for creating variables. The variables are created when values are assigned
+
+```
+x=5
+name="Mike"
+color= "Yellow"
+salary = "30.00"
+
+```
+Python allows create multiple variables and assign them in single line 
+
+```
+x,name,color,salary = 5,"Mike","Yellow",30.00
+
+```
+
+Datatypes 
+
+Python is use in built function check the datatype by using the type()
+
+```
+type(x) => Integer
+type(name) => String
+type(color) => String
+type(salary) => float
+
+```
