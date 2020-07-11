@@ -8,7 +8,8 @@ share-img: /assets/img/path.jpg
 tags: [python, web,programming]
 ---
 
-## What is Python? \
+## What is Python?
+
 Python is the most powerful programming language and very easy to learn. Python language used for following,
 
 * Web development 
@@ -50,6 +51,7 @@ in python
 ```
 
 ### Variables and Data Types 
+
 Variables are created to store the values and python has no command for creating variables. The variables are created when values are assigned
 
 ```
@@ -96,6 +98,7 @@ Python divides the operators into the following groups:
 ###  Collections - Lists , Tuple and Dictionaries 
 
 #### Lists
+
 A list is a collection to store the multiple values in single variables and changeable any time of executions and sort them as per need.
 
 ```
