@@ -96,19 +96,21 @@ Python divides the operators in the following groups:
 ###  Collections - Lists , Tuple and Dictonaries 
 
 #### Lists
-    A list is a collection to store the multiple values in single variables and it can changeable any time of executions and sort them as per need.
+A list is a collection to store the multiple values in single variables and it can changeable any time of executions and sort them as per need.
 
 ```
 fruits = [ "banana","orange","apple"]
 print(fruits)
 ```
-    To access the values in the list by referring the index values.
+
+To access the values in the list by referring the index values.
 
 ```
 print (fruits[1])
 orange
 ```
-    The index starts from zero and it can referred to negative index to access the values item from the list 
+
+The index starts from zero and it can referred to negative index to access the values item from the list 
 
 ```
 print(fruits[-1])
@@ -116,6 +118,7 @@ apple
 ```
 
 Access the list values by range or values between index values 
+
 ```
 fruits = ["banana","orange","apple","kiwi","mango"]
 print(fruits[1:3])
@@ -142,6 +145,33 @@ fruits[2]="I changed fruit name here"
 print(fruits)
 ["banana","orange","I changed fruit name here","kiwi","mango"]
 ```
+
+#### Tuples
+
+Tuples are similar to lists , but it's not changeable and tuples are represented inside brackets ()
+
+```
+fruits = ("banana","orange","apple","kiwi","mango")
+print(fruits)
+
+```
+
+Accessing the values from tuple by using the index and range 
+```
+print(fruits[2])
+print(fruits[2:5])
+print(fruits[:-2])
+```
+
+Changing the values in tuple, Tuple are unchangeable once it declared or tuple object created. But you can the values by converting them into list and update the values from the list.
+
+```
+fruits = fruits = ("banana","orange","apple","kiwi","mango")
+fruits_list = list(fruits)
+fruits_list[2] = " I Changed the values "
+fruits = tuple(fruits_list)
+```
+
 ### Condition and Loops
 
 ### Functions
