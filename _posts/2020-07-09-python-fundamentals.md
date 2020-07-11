@@ -8,34 +8,33 @@ share-img: /assets/img/path.jpg
 tags: [python, web,programming]
 ---
 
-## What is Python ?
-Python is most powerful programming language and very easy to learn ,  It's used for 
+## What is Python?
+Python is the most powerful programming language and very easy to learn. Python language used for following,
 
 * Web development 
 * Machine Learning 
 * Data Analysis 
-* ..etc 
+* ..etc.
 
-It's works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi. The syntax are very easy to learn and it is designed for readablity not like other programming language.
+It works in multiple platforms like  Windows, Linux, Mac and Raspberry Pi. The syntax is easy to learn and designed for readability, not like other programming languages.
 
 {: .box-note}
-This tutorials complete covers the python version is greater than 3.x
+This tutorial completely covers the python version is greater than 3.x.
 
 {: .box-note}
 **Name the python file** :  helloworld.py
+this where python file named with an extension .py
 
-this where python file should be name with extension of .py
-
-Now Let's print the first statement in python
+Now Let's print the first statement.
 ```
 print("Hello World)
 ```
 
 ### Syntax and Comments
 
-Python Indentation , When you write python code the indentation is very important , Indentation is refer the block of code.
+Python Indentation, When you write python code the indentation is very important, Indentation refers to the block of code.
 
-To comment the single # (hash) is used in the python program and commenting the multiple line, it should be wrap inside triple quotes
+To comment on the single # (hash) is used in the python program and commenting on the multiple lines, it should be wrap inside triple quotes
 
 ```
 i = input("Enter the value for i:") # assuming the i values are entered as 10
@@ -44,7 +43,7 @@ if i > 20:
     print("10 is greater than 20")
 
 """
-This is example for multiple 
+This is an example for multiple 
 comment
 in python
 """
@@ -60,7 +59,7 @@ color= "Yellow"
 salary = "30.00"
 
 ```
-Python allows create multiple variables and assign them in single line 
+Python allows us to create multiple variables and assign them in a single line 
 
 ```
 x,name,color,salary = 5,"Mike","Yellow",30.00
@@ -69,7 +68,7 @@ x,name,color,salary = 5,"Mike","Yellow",30.00
 
 Datatypes 
 
-Python is use in built function check the datatype by using the type()
+Python is used inbuilt function check the data type by using the type()
 
 ```
 type(x) => Integer
@@ -80,23 +79,23 @@ type(salary) => float
 ```
 
 ### Operators
-Operators are used to perform operations on variables and values.
+Operators are used to performing operations on variables and values.
 
-Python divides the operators in the following groups:
+Python divides the operators into the following groups:
 
 * Arithmetic 
-    are used with numerical values to perform common mathematicals operations
+    are used with numerical values to performing the common mathematical operations.
 * Assignment 
-    are used to assign the values to variables and it can be combine with  **Arthmetic** operators 
+    are used to assign the values to variables and combined with  **Arithmetic** operators.
 * Comparison 
-    are used to compare the two values are return the logical results
+    are used to compare two values to are to return the logical results.
 * Logical 
-    are used to combine the conditionals statements 
+    are used to join the conditionals statements.
 
-###  Collections - Lists , Tuple and Dictonaries 
+###  Collections - Lists , Tuple and Dictionaries 
 
 #### Lists
-A list is a collection to store the multiple values in single variables and it can changeable any time of executions and sort them as per need.
+A list is a collection to store the multiple values in single variables and changeable any time of executions and sort them as per need.
 
 ```
 fruits = [ "banana","orange","apple"]
@@ -110,7 +109,7 @@ print (fruits[1])
 orange
 ```
 
-The index starts from zero and it can referred to negative index to access the values item from the list 
+The index starts from zero and referred to the negative index to access the values item from the list.
 
 ```
 print(fruits[-1])
@@ -124,20 +123,20 @@ fruits = ["banana","orange","apple","kiwi","mango"]
 print(fruits[1:3])
 ["orange","apple","kiwi"]
 ```
-It can also return the values from mid of index to end of index by without specifying the the end of index from the list.
+It can also return the values from mid to the end of the index by without specifying the end of the index from the list.
 
 ```
 print(fruits[2:])
 ["apple","kiwi","mango"]
 ```
 
-Simlarly from start to end. 
+Similarly from start to end. 
 
 ```
 print(fruits[:-2])
 [banana","orange","apple","kiwi"]
 ```
-To change values in list 
+To change values in the list.
 
 ```
 fruits = ["banana","orange","apple","kiwi","mango"]
@@ -146,9 +145,9 @@ print(fruits)
 ["banana","orange","I changed fruit name here","kiwi","mango"]
 ```
 
-#### Tuples
+#### Dictionaries
 
-Tuples are similar to lists , but it's not changeable and tuples are represented inside brackets ()
+Tuples are similar to lists, but it's not changeable and tuples represented inside brackets ()
 
 ```
 fruits = ("banana","orange","apple","kiwi","mango")
@@ -156,14 +155,14 @@ print(fruits)
 
 ```
 
-Accessing the values from tuple by using the index and range 
+Accessing the values from a tuple by using the index and range 
 ```
 print(fruits[2])
 print(fruits[2:5])
 print(fruits[:-2])
 ```
 
-Changing the values in tuple, Tuple are unchangeable once it declared or tuple object created. But you can the values by converting them into list and update the values from the list.
+Changing the values in a tuple, Tuple is unchangeable once it declared or tuple object created. But you can the values by converting them into a list and update the values from the list.
 
 ```
 fruits = fruits = ("banana","orange","apple","kiwi","mango")
@@ -171,12 +170,13 @@ fruits_list = list(fruits)
 fruits_list[2] = " I Changed the values "
 fruits = tuple(fruits_list)
 ```
+#### Tuples
 
 ### Condition and Loops
 
 ### Functions
 
-### Class and Object , Inhertiance 
+### Class and Object, Inheritance 
 
 ### Modules
 
@@ -184,7 +184,7 @@ fruits = tuple(fruits_list)
 
 ### Error Handling 
 
-### Python Util - Date , Math and JSON
+### Python Util - Date, Math and JSON
 
 ### How to install the python modules 
 PIP Installer 
