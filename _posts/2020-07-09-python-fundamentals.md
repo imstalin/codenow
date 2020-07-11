@@ -145,7 +145,7 @@ print(fruits)
 ["banana","orange","I changed fruit name here","kiwi","mango"]
 ```
 
-#### Dictionaries
+#### Tuples
 
 Tuples are similar to lists, but it's not changeable and tuples represented inside brackets ()
 
@@ -170,9 +170,31 @@ fruits_list = list(fruits)
 fruits_list[2] = " I Changed the values "
 fruits = tuple(fruits_list)
 ```
-#### Tuples
+#### Dictionaries
+A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+
+```
+dict = {
+  "brand": "Apple",
+  "model": "iPhone" 
+}
+print(thisdict)
+```
+Accessing the values from dictionaries
+
+```
+modelName = dict["model"]
+or 
+modelName = dict.get("model")
+
+print(modelName)
+```
 
 ### Condition and Loops
+
+If Statements:
+
+
 
 ### Functions
 
