@@ -7,8 +7,8 @@ thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [python, web,programming]
 ---
-
-## What is Python?
+\
+## What is Python? \
 Python is the most powerful programming language and very easy to learn. Python language used for following,
 
 * Web development 
@@ -29,7 +29,7 @@ Now Let's print the first statement.
 ```
 print("Hello World)
 ```
-
+\
 ### Syntax and Comments
 
 Python Indentation, When you write python code the indentation is very important, Indentation refers to the block of code.
@@ -48,8 +48,8 @@ comment
 in python
 """
 ```
-
-### Variables and Data Types
+\
+### Variables and Data Types 
 Variables are created to store the values and python has no command for creating variables. The variables are created when values are assigned
 
 ```
@@ -77,8 +77,9 @@ type(color) => String
 type(salary) => float
 
 ```
-
+\
 ### Operators
+\
 Operators are used to performing operations on variables and values.
 
 Python divides the operators into the following groups:
@@ -91,7 +92,7 @@ Python divides the operators into the following groups:
     are used to compare two values to are to return the logical results.
 * Logical 
     are used to join the conditionals statements.
-
+\
 ###  Collections - Lists , Tuple and Dictionaries 
 
 #### Lists
@@ -144,7 +145,7 @@ fruits[2]="I changed fruit name here"
 print(fruits)
 ["banana","orange","I changed fruit name here","kiwi","mango"]
 ```
-
+\
 #### Tuples
 
 Tuples are similar to lists, but it's not changeable and tuples represented inside brackets ()
@@ -197,6 +198,8 @@ If Statements:
 
 
 ### Functions
+
+
 
 ### Class and Object, Inheritance 
 
