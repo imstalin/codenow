@@ -259,6 +259,49 @@ my_function()
 my_function_with_param("Hello", "World")
 **output:** Hello World
 ```
+
+### Anonymous Functions (Lambda)
+
+Lambda is small anonymous function. It can take any number of arguments,but it can have only the expression.
+
+**_lambda_**  keyword is used to defined the lambda function.
+
+For example,
+
+Lambda function with one arguments
+```
+add = lambda a: a+100
+print(add(1))
+**output**: 101
+```
+
+Lambda function with multiple arguments
+
+```
+add = lambda a: a+b+c
+print(add(1,2,3))
+**output**: 6
+```
+
+Define functions and return the lambda function
+
+```
+def myfunc(n):
+  return lambda a : a * n
+
+first = myfunc(2)
+second = myfunc(3)
+
+print("First :", first(10)) 
+print("Second :",  second(10))
+
+**Output**
+
+First : 20
+Second : 30
+
+```
+
 ### Class and Object, Inheritance 
 
 ### Modules
