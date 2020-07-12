@@ -407,12 +407,95 @@ print(help.greeting("John"))
 
 ### File Handling
 
+Working with files in python , There are several operations when need to work with files, Let's say for example
+
+1. Reading Files
+2. Create / Modify Files
+3. Delete Files.
+
+In python , there is a method called **open()** for handling the files.
+
+1. Read files
+~~~
+file = open("demotextfile.txt", "r")
+print(file.read())
+file.close()
+~~~
+
+2. Create / Modify files
+~~~
+f = open("demowrite.txt", "w")
+f.write("Write content inside file")
+f.close()
+~~~
+
+3. Delete files
+
+To delte files we need to import the OS modules
+
+for example. 
+~~~
+import os
+
+if os.path.exists("demodelete.txt"):
+    os.remove("demodelete.txt")
+else:
+    print("File not found")
+~~~
+     
 ### Error Handling 
 
-### Python Util - Date, Math and JSON
+Error handling is very important ,if you building application. Python also allows the error handling 
+
+~~~
+
+try:
+    f = open("file_not_exists_in_the_path.txt")
+    lines = f.read()
+    f.close()
+except:
+    print("File is not found in path specified")
+
+
+# Valid file is Present in the location.
+
+try:
+    f = open("filedemo.txt")
+    lines = f.read() 
+except:
+    print("File is not found in path specified")
+finally:
+    f.close()
+
+~~~
+
+### Python Util - Date, Math
+
+Date Function
+
+we can import the datetime module in python for handling the date functions.
+
+~~~
+import datetime
+
+today = datetime.datetime.now()
+print(today)
+~~~
+Math Function:
+
+~~~
+import  math
+
+sqt = math.sqrt(25)
+print (sqt)
+~~~
 
 ### How to install the python modules 
-PIP Installer 
+
+We can find the several python support modules in this website https://pypi.org/ and those modules can be imported by using PIP installer 
+
+pip install json5
+
 
 
 
