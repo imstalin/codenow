@@ -231,6 +231,27 @@ else:
 
 ```
 
+While Loop :
+
+While loop can execute set statement with condition is true, For example 
+
+Condition is true
+
+```
+i=10
+while i<20:
+  print("Condition is true , value for i =" ,i)
+  i=i+1
+```
+Condition is false
+
+```
+i=50
+while i<20:
+  print("Condition is true , value for i =" ,i)
+  i=i+1
+```
+
 ### Functions
 
 Function is block code and executed when it's called. Function in python is defined by **def** keyword. 
