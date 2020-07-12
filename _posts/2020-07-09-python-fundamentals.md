@@ -231,7 +231,7 @@ else:
 
 ```
 
-While Loop :
+**While Loop** :
 
 While loop can execute set statement with condition is true, For example 
 
@@ -251,7 +251,33 @@ while i<20:
   print("Condition is true , value for i =" ,i)
   i=i+1
 ```
+**For Loop**
+For loop is used to iterate the sequence from the collection like (list , tuple, dictionaries)
 
+```
+fruits = ["apple","orange","mango"]
+for fruit in fruits:
+    print(fruit)
+```
+Loop through in range
+```
+for i in range(10):
+  print(i)
+
+for i in range(5, 10):
+  print(i)
+
+```
+Nested for loop , It should be indent between first and second for loop. For Example
+
+```
+colors = ["Red","Orange","Yellow"]
+fruits = ["Apple","Orange","Mango"]
+
+for color in colors:
+    for fruit in fruits:
+        print("The color of ", fruit ,"is " , color ," color")
+```
 ### Functions
 
 Function is block code and executed when it's called. Function in python is defined by **def** keyword. 
@@ -324,6 +350,40 @@ Second : 30
 ```
 
 ### Class and Object, Inheritance 
+
+Python is Object oriented programming language ,Almost everything as object , properties and method.
+
+#### Create class with Properties and Object creation
+
+To create class in python , **_class_** keyword is used.
+
+```
+
+class MyFirstClass:
+    MyProperty = 10
+
+MyObject = MyFirstClass()
+print(MyObject.MyProperty)
+
+**output** 10
+```
+
+#### __init()__ and functions
+
+All class will have functions called __init__() , It will be execute when class being initiated.
+
+Created class for student and assigning the name and class inside the inbuilt function called __init__()  and printing the student details by defining the user defined function called show function.
+```
+class Student:
+  def __init__(self, name, class):
+    self.name = name
+    self.class = class
+  def show(self):
+    print("Student Name:" , self.name , " and he studing in class of " , class)
+
+s1 = Student("Kumar", "5")
+s1.show()
+```
 
 ### Modules
 
