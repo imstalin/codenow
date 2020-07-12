@@ -387,6 +387,24 @@ s1.show()
 
 ### Modules
 
+Importing the module in you script. If you need to include the functions built already in the scripts. 
+
+Let's create helper functions in seperate file and import them in the current scripts.
+
+~~~
+# create helper functions in  helper.py
+
+def greeting(name):
+    return "Good morning "+ name +"!"
+
+# create main script as main.py
+
+import helper Aas help
+
+print(help.greeting("John"))
+
+~~~
+
 ### File Handling
 
 ### Error Handling 
