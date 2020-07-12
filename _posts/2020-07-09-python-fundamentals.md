@@ -206,10 +206,59 @@ if b > a:
   print("b is greater than a")
 ```
 
+If Else Statements:
+
+```
+a = 50
+b = 100
+if b > a:
+  print("b is greater than a")
+else:
+    print("b is **Not** greater than a")
+
+```
+If  and Else IF Statements:
+
+```
+a = 50
+b = 100
+if b > a:
+  print("b is greater than a")
+elif a==b:
+  print("Values of a and b are equal")
+else:
+    print("b is **Not** greater than a")
+
+```
+
 ### Functions
 
+Function is block code and executed when it's called. Function in python is defined by **def** keyword. 
 
+Function with no parameter
+```
+def my_function():
+    print("Function with no parameter")
+    pass
+```
 
+Function with parameters
+
+```
+def my_function_with_param(param1, param2):
+    print(param1, " ", param2)
+    pass
+```
+
+Function calling example
+
+```
+my_function()
+**output:**  Function with no parameter
+
+my_function_with_param("Hello", "World")
+**output:** Hello World
+```
 ### Class and Object, Inheritance 
 
 ### Modules
