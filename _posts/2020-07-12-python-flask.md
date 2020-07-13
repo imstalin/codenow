@@ -1,9 +1,6 @@
 ---
 layout: post
-title: Python and Flask 
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+title: Python and Flask  
 tags: [python, mysql,web,programming]
 ---
 

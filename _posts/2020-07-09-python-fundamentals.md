@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Python Fundamentals
-subtitle: learn by example
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+subtitle: learn by example 
 tags: [python, web,programming]
 ---
 
