@@ -173,7 +173,7 @@ fruits = tuple(fruits_list)
 ```
 #### Dictionaries
 
-A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+A dictionary is a collection which is unordered, changeable and indexed. In Python, dictionaries are written with curly brackets, and they have keys and values.
 
 ```
 dict = {
@@ -230,7 +230,7 @@ else:
 
 **While Loop** :
 
-While loop can execute set statement with condition is true, For example 
+While loop can execute a set statement with the condition is true, For example 
 
 Condition is true
 
@@ -249,14 +249,14 @@ while i<20:
   i=i+1
 ```
 **For Loop**
-For loop is used to iterate the sequence from the collection like (list , tuple, dictionaries)
+For loop is used to iterate the sequence from the collection like (list, tuple, dictionaries)
 
 ```
 fruits = ["apple","orange","mango"]
 for fruit in fruits:
     print(fruit)
 ```
-Loop through in range
+Loop through in a range
 ```
 for i in range(10):
   print(i)
@@ -265,7 +265,7 @@ for i in range(5, 10):
   print(i)
 
 ```
-Nested for loop , It should be indent between first and second for loop. For Example
+Nested for loop, It should be indent between first and second for loop. For Example
 
 ```
 colors = ["Red","Orange","Yellow"]
@@ -277,7 +277,7 @@ for color in colors:
 ```
 ### Functions
 
-Function is block code and executed when it's called. Function in python is defined by **def** keyword. 
+The function is block code and executed when it's called. Function in python is defined by **def** keyword. 
 
 Function with no parameter
 ```
@@ -306,13 +306,13 @@ my_function_with_param("Hello", "World")
 
 ### Anonymous Functions (Lambda)
 
-Lambda is small anonymous function. It can take any number of arguments,but it can have only the expression.
+Lambda is a small anonymous function. It can take any number of arguments, but it can have only the expression.
 
-**_lambda_**  keyword is used to defined the lambda function.
+**_lambda_**  keyword used to define the lambda function.
 
 For example,
 
-Lambda function with one arguments
+Lambda function with one argument
 ```
 add = lambda a: a+100
 print(add(1))
@@ -341,18 +341,18 @@ print("Second :",  second(10))
 
 **Output**
 
-First : 20
-Second : 30
+First: 20
+Second: 30
 
 ```
 
 ### Class and Object, Inheritance 
 
-Python is Object oriented programming language ,Almost everything as object , properties and method.
+Python is Object-oriented programming language, Almost everything as object, properties and method.
 
-#### Create class with Properties and Object creation
+#### Create a class with Properties and Object creation
 
-To create class in python , **_class_** keyword is used.
+To create a class in python, **_class_** keyword used.
 
 ```
 
@@ -367,9 +367,9 @@ print(MyObject.MyProperty)
 
 #### __init()__ and functions
 
-All class will have functions called __init__() , It will be execute when class being initiated.
+All class will have functions called __init__(), It will be executed when the class is initiated.
 
-Created class for student and assigning the name and class inside the inbuilt function called __init__()  and printing the student details by defining the user defined function called show function.
+Created class for student and assigning the name and class inside the inbuilt function called __init__()  and printing the student details by defining the user-defined function called show function.
 ```
 class Student:
   def __init__(self, name, class):
@@ -384,9 +384,9 @@ s1.show()
 
 ### Modules
 
-Importing the module in you script. If you need to include the functions built already in the scripts. 
+Importing the module in your script. If you need to include the functions built already in the scripts. 
 
-Let's create helper functions in seperate file and import them in the current scripts.
+Let's create helper functions in a separate file and import them in the current scripts.
 
 ~~~
 # create helper functions in  helper.py
@@ -394,7 +394,7 @@ Let's create helper functions in seperate file and import them in the current sc
 def greeting(name):
     return "Good morning "+ name +"!"
 
-# create main script as main.py
+# create the main script as main.py
 
 import helper Aas help
 
@@ -404,13 +404,13 @@ print(help.greeting("John"))
 
 ### File Handling
 
-Working with files in python , There are several operations when need to work with files, Let's say for example
+Working with files in python, There are several operations when need to work with files, Let's say for example
 
 1. Reading Files
 2. Create / Modify Files
 3. Delete Files.
 
-In python , there is a method called **open()** for handling the files.
+In python, there is a method called **open()** for handling the files.
 
 1. Read files
 ~~~
@@ -428,7 +428,7 @@ f.close()
 
 3. Delete files
 
-To delte files we need to import the OS modules
+To delete files we need to import the OS modules
 
 for example. 
 ~~~
@@ -442,7 +442,7 @@ else:
      
 ### Error Handling 
 
-Error handling is very important ,if you building application. Python also allows the error handling 
+Error handling is very important if you building application. Python also allows the error handling 
 
 ~~~
 
@@ -470,10 +470,10 @@ finally:
 
 Date Function
 
-we can import the datetime module in python for handling the date functions.
+we can import the DateTime module in python for handling the date functions.
 
 ~~~
-import datetime
+import DateTime
 
 today = datetime.datetime.now()
 print(today)
@@ -489,11 +489,6 @@ print (sqt)
 
 ### How to install the python modules 
 
-We can find the several python support modules in this website https://pypi.org/ and those modules can be imported by using PIP installer 
+We can find the several python-support modules in this website https://pypi.org/ and those modules can be imported by using PIP installer 
 
 pip install json5
-
-
-
-
-
