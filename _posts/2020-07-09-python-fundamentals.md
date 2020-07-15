@@ -49,7 +49,7 @@ in python
 
 ### Variables and Data Types 
 
-Variables are created to store the values and python has no command for creating variables. The variables are created when values are assigned
+Variables created to store the value and has no command for creating variables in Python. The variables created when values are assigned
 
 ```
 x=5
@@ -67,7 +67,7 @@ x,name,color,salary = 5,"Mike","Yellow",30.00
 
 Datatypes 
 
-Python is used inbuilt function check the data type by using the type()
+Python is used inbuilt function check the data type by using the type() function.
 
 ```
 type(x) => Integer
@@ -84,7 +84,7 @@ Operators are used to performing operations on variables and values.
 Python divides the operators into the following groups:
 
 * Arithmetic 
-    are used with numerical values to performing the common mathematical operations.
+    are used with numerical values for performing mathematical operations.
 * Assignment 
     are used to assign the values to variables and combined with  **Arithmetic** operators.
 * Comparison 
@@ -489,6 +489,6 @@ print (sqt)
 
 ### How to install the python modules 
 
-We can find the several python-support modules in this website https://pypi.org/ and those modules can be imported by using PIP installer 
+We can find the several python-support modules in this website https://pypi.org/ and those modules can be imported by using PIP command.
 
-pip install json5
+pip install json

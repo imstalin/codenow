@@ -13,7 +13,7 @@
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Untitled' }} {{ site.title-separator | default: '-' }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}">
-
+  {% seo %}
   {% include gtag.html %}
   {% include gtm_head.html %}
   {% include google_analytics.html %}
