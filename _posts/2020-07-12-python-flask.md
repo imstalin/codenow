@@ -47,3 +47,28 @@ Save your file and switch to the console environment to run your first flask web
 Rendering the Static Files
 
 You may want to render the static pages on your website. Now let's import the template module from flask module and write code to display the static files.
+
+helloworld.py
+~~~
+from flask import render_template
+@app.route('/')
+def hello():
+    return render_template('hellohome.html')
+
+~~~
+
+hellohemo.html
+
+~~~
+<html>
+    <head>
+        <title> Home - Hello </title>
+    </head>
+
+    <body>
+        Hello ,
+
+        Welcome to Home Page of Flask App.
+    </body>
+</html>
+~~~
