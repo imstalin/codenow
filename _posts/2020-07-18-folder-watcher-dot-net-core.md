@@ -59,4 +59,12 @@ Let's say for an example. We may be required to monitor the files and categories
 
 The folder has many files like excel , text and JSON.  We want to move them into the corresponding folder.
 
-Let's create a utility program with the demonstration.
+Let's create a utility program with the demonstration. Please watch video below
+
+[![Dot Net Core - Folder Watcher](http://img.youtube.com/vi/ki-vHc1VaeQ/0.jpg)](http://www.youtube.com/watch?v=ki-vHc1VaeQ)
+
+
+Github Repository
+
+https://github.com/imstalin/myWatcher
+
