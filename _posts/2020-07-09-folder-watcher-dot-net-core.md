@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Folder Wachter - Dot Net Core
+title: Folder Watcher - Dot Net Core
 subtitle: learn by example 
 tags: [dotnet, core,programming,C#,Background service]
 ---
