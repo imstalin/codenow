@@ -69,8 +69,10 @@ SC start SampleService
 SC stop SampleService
 ```
 
-You can refer to the video source for details and demonstration.
+You can refer to the video source for details and demonstration. 
+
+[![Dot Net Core - Windows Service](http://img.youtube.com/vi/a7d1iYhUCnc/0.jpg)](http://www.youtube.com/watch?v=a7d1iYhUCnc)
 
 GitHub:
-
+[https://github.com/imstalin/windowservicedotnetcore](https://github.com/imstalin/windowservicedotnetcore)
 
